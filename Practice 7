@@ -1,0 +1,33 @@
+public class employ {
+    int emp_ID;
+    String name;
+    String debart;
+    double salary;
+    double bonus;
+    boolean resident;
+
+    public void setSalary(double salary1) {
+        salary = salary1;
+    }
+
+    public void setSalary(double salary1, double bonus1) {
+        salary = salary1;
+        bonus = bonus1;
+    }
+
+    public void setDebart(String debart1) {
+        debart = debart1;
+    }
+
+    public void setEmp_ID(int emp_ID1) {
+        emp_ID = emp_ID1;
+    }
+    public void print_Emp_Dara(){
+        System.out.println("Employ ID"+emp_ID);
+        System.out.println("Employ name"+name);
+        System.out.println("Employ depart"+debart);
+        System.out.println("Employ salary"+salary);
+        System.out.println("Employ bouns"+bonus);
+        System.out.println("Employ resident"+resident);
+    }
+}
